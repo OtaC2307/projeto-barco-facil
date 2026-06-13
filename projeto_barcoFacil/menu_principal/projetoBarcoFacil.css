@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:oklch(92.8% 0.006 264.531);
+}
+
+/* HEADER */
+.logo{
+    width: 140px;
+}
+header{
+    background:oklch(62.3% 0.214 259.815);
+    height:120px;
+    width: 100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 60px;
+    
+    
+}
+
+header h1{
+    color:white;
+    font-size:3rem;
+}
+
+li a{
+    font-size: 17pt;
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.busca{
+    border-radius: 10px;
+    border: none;
+    width:400px;
+    height:50px;
+    font-size: 17pt;
+    padding-left: 17px;
+}
+.btnPesquisa{
+    border-radius: 15px;
+    border: none;
+    width: 120px;
+    height:50px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+    background-color: #27457A;
+}
+.btnPesquisa:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #2b4c85;
+}
+
+
+/* MAIN */
+
+.layout{
+    display:flex;
+    gap:20px;
+
+    padding:10px;
+    
+}
+
+.conteudo{
+    flex:4;
+}
+
+.menuLateral{
+    flex:1;
+
+    background:#27457A;
+
+    padding:10px;
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* BANNER */
+
+.poster{
+    width:100%;
+    height:300px;
+
+   
+
+    margin-bottom:15px;
+}
+
+/* CARDS */
+
+.containerHorizontal{
+    display:flex;
+    gap:20px;
+}
+
+.imgbarcos{
+    flex:1;
+    border-radius: 15px;
+
+    background:#27457A;
+    color:white;
+
+    min-height:320px;
+    box-shadow: rgba(0, 0, 0, 0.389) 0px 5px 15px;
+    order: 0;
+    
+}
+
+.barco1{
+    border-radius: 15px;
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    
+}
+
+.imgbarcos h2, .imgbarcos p{
+    padding:10px;
+}
+
+/* MENU */
+
+.itemMenu a{
+    height:110px;
+    text-decoration: none;
+    border-radius: 15px;
+
+    background:#4c7bd1;
+
+    color:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:2rem;
+    font-weight:bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer{
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height:70px;
+    background:#27457A;
+}

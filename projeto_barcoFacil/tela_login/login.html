@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Login</title>
+    <link rel="stylesheet" href="../tela_login/login.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>Login</h1>
+            <label for="email">E-mail 
+                <input id="email" type="email" required placeholder="Digite seu E-mail..">
+            </label>
+            <label for="senha">Senha
+                <input id="senha" type="password" required placeholder="Digite sua senha..">
+            </label>
+            <div class="btn">
+                <button onclick="window.location.href='../menu_principal/projetoBarcoFacil.html'" type="submit" class="btn_entrar">Acessar</button>
+            </div>
+            
+
+            <div class="redirecionamento">
+                <a href="#">Esqueceu sua senha?</a>
+            <a href="#">Criar conta</a>
+            </div>
+        </form>
+        
+        
+    </div>   
+    
+    <script src="login.js"></script>
+</body>
+</html>
